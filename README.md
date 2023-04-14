@@ -1,5 +1,4 @@
 # A Hash-based Distributed File System with Raft Consensus Algorithm
-
 This is a block-hash and gRPC based cloud file server, can synchronize and control the version of files with multiple clients concurrently updating; multiple block servers with consistent hashing; Raft protocol to achieve cluster fault tolerance, using channels, goroutine, mutex locks, and RPC context to control the behaviors of leader/follower/candidate, correctly serves client requests, replicates logs and runs leader election in various cluster crashed scenarios. 
 
 1. generate the protobuf
